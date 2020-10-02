@@ -10,9 +10,9 @@ for (int a = 0; a < n; a++) {
 int sum = 0;
 for (int b = a; b < n; b++) {
 sum += arr[b];
-best = max(best,sum);
+best = min(best,sum);
 }
 }
-cout<<"The maximum sum of the elements is "<<best;
+cout<<"The min sum of the elements is "<<best;
 return 0;
 }
