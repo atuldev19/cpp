@@ -1,2 +1,2 @@
 # cpp
-Array based solutions
+Array based solutions for beginner 
